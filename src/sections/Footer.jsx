@@ -8,15 +8,15 @@ import { FaFacebook } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div id='contact' className='w-full bg-black lg:px-22 px-10 py-10 flex flex-col justify-center items-center gap-12'>
-      <div id='top' className='bg-[#046e8f] w-full p-10 rounded-md flex lg:flex-row flex-col justify-between items-start -mt-[120px] gap-6'>
+    <div id='contact' className='w-full bg-black lg:px-22 px-5 py-10 flex flex-col justify-center items-center gap-12'>
+      <div id='top' className='bg-[#046e8f] w-full lg:p-10 p-6 rounded-md flex lg:flex-row flex-col justify-between items-start -mt-[120px] gap-6'>
         <div className='lg:w-[70%] w-full flex flex-col justify-between items-start gap-5'>
-          <h1 className='text-3xl font-fakhwang font-semibold text-white text-left lg:w[70%] w-full'>Crafting Unforgettable Moments, One Trip at a Time</h1>
-          <hr className="w-[10%] border-2 border-orange-600" />
+          <h1 className='text-3xl font-fakhwang font-semibold text-white text-left lg:w-[60%] w-full'>Crafting Unforgettable Moments, One Trip at a Time</h1>
+          <hr className="lg:w-[10%] w-[20%] border-2 border-orange-600" />
         </div>
         <div className='lg:w-[30%] w-full flex flex-col justify-between items-start gap-5'>
           <h1 className='text-white text-xl'>Subscribe our Newsletter</h1>
-          <div className='flex gap-3'>
+          <div className='flex lg:flex-row flex-col gap-3 w-full'>
             <input type="text" placeholder='Enter your email' className='bg-white p-3 rounded-md text-black' />
             <button className='bg-orange-600 text-white p-3 rounded-md'>Subscribe</button>
           </div>

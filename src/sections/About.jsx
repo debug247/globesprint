@@ -17,7 +17,7 @@ function About() {
   }, []);
 
   return (
-    <div id='about' className='flex lg:flex-row flex-col justify-between items-center gap-15 lg:px-22 px-10 lg:py-22 py-20'>
+    <div id='about' className='flex lg:flex-row flex-col justify-between items-center gap-15 lg:px-22 px-5 lg:py-22 py-20'>
       <div className='flex flex-col justify-center items-start'>
         <img data-aos="zoom-in" data-aos-delay="100" src={aboutimg1} alt="" className='rounded-md' />
         <img data-aos="slide-up" data-aos-delay="300" src={aboutimg2} alt="" className='rounded-md w-[40%] border-10 border-white -mt-[150px] -ml-[30px] -rotate-2' />

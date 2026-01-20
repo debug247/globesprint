@@ -16,7 +16,7 @@ function Packages() {
   }, []);
 
   return (
-    <div id='packages' className='w-full bg-gray-200 flex flex-col justify-center items-center gap-10 lg:px-22 px-10 lg:py-22 py-20'>
+    <div id='packages' className='w-full bg-gray-200 flex flex-col justify-center items-center gap-10 lg:px-22 px-5 lg:py-22 py-20'>
       <div id='top' className='w-full flex lg:flex-row flex-col justify-between items-center lg:gap-20 gap-5'>
         <div>
           <h1 data-aos="zoom-in" data-aos-delay="100" className='lg:text-5xl text-3xl font-fakhwang font-semibold text-black'>Explore Our Most Popular Travel Packages</h1>

@@ -20,7 +20,7 @@ function Services() {
   }, []);
 
   return (
-    <div id='services' className='w-full bg-gray-200 lg:px-22 px-10 lg:py-22 py-20 flex flex-col justify-between lg:items-center items-left gap-5'>
+    <div id='services' className='w-full bg-gray-200 lg:px-22 px-5 lg:py-22 py-20 flex flex-col justify-between lg:items-center items-left gap-5'>
       <h1 data-aos="zoom-in" data-aos-delay="100" className='lg:text-5xl text-3xl font-fakhwang font-semibold text-black'>Discover Your Next Dream Destination</h1>
       <p data-aos="slide-up" data-aos-delay="200" className='text-gray-500 lg:w-[60%] w-full lg:text-center text-left'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus illum iure doloribus. Id, aspernatur? Nulla aliquam veniam in ea cumque.</p>
       <hr data-aos="zoom-in" data-aos-delay="300" className="lg:w-[7%] w-[20%] border-2 border-orange-600" />

@@ -16,7 +16,7 @@ function Hero() {
   return (
     <div
       id="hero"
-      className="relative w-full lg:h-screen h-[550px] bg-cover bg-center z-20"
+      className="relative w-full lg:h-screen py-30 h-auto bg-cover bg-center z-20"
       style={{ backgroundImage: `url(${heroimg})` }}
     >
       {/* Black Overlay */}

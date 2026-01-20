@@ -15,7 +15,7 @@ function CtaOne() {
   }, []);
 
   return (
-    <div id='cta1' style={{ backgroundImage: `url(${cta1})` }} className='relative w-full h-[500px] p-22 flex flex-col justify-center items-center gap-5 bg-cover bg-center'>
+    <div id='cta1' style={{ backgroundImage: `url(${cta1})` }} className='relative w-full lg:h-[500px] h-auto lg:p-22 p-10 flex flex-col justify-center items-center gap-5 bg-cover bg-center'>
 
       {/* Black Overlay */}
       <div className="absolute inset-0 bg-black/50"></div>
